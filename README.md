@@ -1,10 +1,10 @@
 # CPU Scheduling Mechanics in Operating Systems
 
-"The objective of multiprogramming is to have some process running at all times, to maximize CPU utilization. [...] A process is exectured until it must wait, typically for the completion of some I/O request. [...] When on process has to wait, the operating system (OS) takes the CPU away from the process and gives the CPU to another process. [...] On a multicore system, this concept of keeping the system busy is extended to all processing cores on the system. 
+"The objective of multiprogramming is to have some process running at all times, to maximize CPU utilization. [...] A process is exectured until it must wait, typically for the completion of some I/O request. [...] When one process has to wait, the operating system (OS) takes the CPU away from the process and gives the CPU to another process. [...] On a multicore system, this concept of keeping the system busy is extended to all processing cores on the system. 
 
 Scheduling of this kind is a fundamental OS function. Almost all computer resources are scheduled before use."
 
-Operating System Concepts 10th Edition, Seilberschatz, et al.
+"Operating System Concepts", 10th Ed., Sillberschatz, et al.
 
 # Running This Program
 
